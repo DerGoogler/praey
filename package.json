@@ -1,0 +1,27 @@
+{
+  "name": "praey",
+  "version": "1.0.0",
+  "author": "Der_Googler <jimmyboehm@dergoogler.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DerGoogler/praey.git"
+  },
+  "keywords": [
+    "console",
+    "node",
+    "color"
+  ],
+  "main": "./dist/index.js",
+  "description": "Simple and easy to understand colored console logging for Node.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./dist/ && tsc"
+  },
+  "devDependencies": {
+    "bun-types": "^0.1.0",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "/dist"
+  ]
+}
